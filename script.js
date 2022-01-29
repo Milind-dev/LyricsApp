@@ -24,7 +24,7 @@ function showData(lyricsdata) {
         html += `<div id="resultsShow">  
                    <div class="lyricsSearchings">
                      <p id="lyricsInfo"> <span class="lyricsName">
-                       <img src="${artist.picture_small}""></img> ${artist.name} </span> ${id} ${title} 
+                       <img src="${artist.picture_small}""> ${artist.name} </span> ${id} ${title}</img> 
                      </p>
                    </div>
                    <div class = "audioLyrics"> 

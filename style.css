@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#headerLyrics {
+  background-image: url("https://images.unsplash.com/photo-1605020420620-20c943cc4669?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Z3VpdGFyfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+  width: 99.7vw;
+  height: 27vh;
+}
+#headerLyrics h1 {
+  color: white;
+  font-family: "Sedgwick Ave", cursive;
+  margin-left: 90vh;
+}
+#headerLyrics #searchings {
+  background-color: #e271fd;
+  color: white;
+  margin: 10vh -89vh;
+  border-radius: 4vh;
+  width: 8vw;
+  height: 6vh;
+}
+#headerLyrics input {
+  margin: 10vh 70vh;
+  border-radius: 3vh;
+  text-align: center;
+  width: 27vw;
+  height: 7vh;
+  outline: red dashed 1px;
+  box-sizing: border-box;
+}
+
+#resultsShow {
+  display: flex;
+  flex: 1;
+  margin: 1vh 14vh;
+  justify-content: space-between;
+  width: 70%;
+}
+#resultsShow .lyricsName {
+  color: black;
+  font-weight: bold;
+}
+#resultsShow #lyricsInfo {
+  color: black;
+  margin-left: 22vh;
+}
+#resultsShow #lyricsDetails {
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  border-bottom: 1px solid olive;
+  background-color: #8f67fd;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  border-radius: 2vh;
+  width: 8vh;
+}
+#resultsShow #lyricsDetails:hover {
+  color: crimson;
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.lyricsSearchings {
+  width: 69vh;
+}
+
+.audioLyrics {
+  width: 10vh;
+}
+
+#LyricsReader {
+  z-index: 1;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3vh;
+  width: 100vh;
+  margin: 10vh 55vh;
+  border: 1px solid black;
+  box-shadow: #555bff 0px 0px 0px 3px, #1fc11b 0px 0px 0px 6px, #ffd913 0px 0px 0px 9px, #ff9c55 0px 0px 0px 12px, #ff5555 0px 0px 0px 15px;
+}/*# sourceMappingURL=style.css.map */
