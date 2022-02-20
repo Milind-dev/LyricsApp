@@ -22,24 +22,26 @@ $font-Sedgwick: "Sedgwick Ave", cursive;
     color: white;
     font-family: $font-Sedgwick;
     // text-align: center
-    margin-left: 90vh;
+    margin-left: 100vh;
   }
   #searchings {
     background-color: #e271fd;
     color: white;
-    margin: 10vh -89vh;
+    margin: 10vh -97vh;
     // position: absolute;
+    font-weight: 666;
     border-radius: 4vh;
-    width: 8vw;
+    width: 9vw;
     height: 6vh;
   }
   input {
-    margin: 10vh 70vh;
+    margin: 10vh 75vh;
+    border: hidden;
     border-radius: 3vh;
     text-align: center;
-    width: 27vw;
+    width: 32vw;
     height: 7vh;
-    outline: rgb(255, 0, 0) dashed 1px;
+    outline: hidden;
     box-sizing: border-box;
   }
 }
@@ -48,7 +50,7 @@ $font-Sedgwick: "Sedgwick Ave", cursive;
 #resultsShow {
   display: flex;
   flex: 1;
-  margin: 1vh 14vh;
+  margin: 1vh 27vh;
   justify-content: space-between;
   width: 70%;
   // background-color: firebrick;
@@ -71,6 +73,7 @@ $font-Sedgwick: "Sedgwick Ave", cursive;
     font-size: 13px;
     border-radius: 2vh;
     width: 8vh;
+
     &:hover {
       color: crimson;
       background-color: yellow;
@@ -93,7 +96,7 @@ $font-Sedgwick: "Sedgwick Ave", cursive;
   font-family: "Cormorant Garamond", serif;
   font-size: 3vh;
   width: 100vh;
-  margin: 10vh 55vh;
+  margin: 10vh 63vh;
   border: 1px solid black;
   box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
     rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,

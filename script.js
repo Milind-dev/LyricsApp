@@ -1,5 +1,6 @@
 var url = "https://api.lyrics.ovh/suggest/";
-function loadingLyrics(name, title) {
+
+const loadingLyrics = (name, title) => {
     fetch(`https://api.lyrics.ovh/v1/${title}/${name}`)
         .then(res => res.json())
         .then(data => {
@@ -12,15 +13,14 @@ function loadingLyrics(name, title) {
             }
         })
 }
-//---
 
-function showData(lyricsdata) {
+//---show datas
+const showData = (lyricsdata) => {
     const { data } = lyricsdata;
     let html = "";
 
     data.forEach(element => {
-        const { picture_small, artist, title, id, preview, album } = element;
-        // console.log(id, title)
+        const { artist, title, id, preview } = element;
         html += `<div id="resultsShow">  
                    <div class="lyricsSearchings">
                      <p id="lyricsInfo"> <span class="lyricsName">
@@ -39,6 +39,8 @@ function showData(lyricsdata) {
         show.innerHTML = " " + html;
     });
 }
+
+//async loading promise 
 async function loadingData() {
     var inputs = document.getElementById("inputs").value;
     const response = await fetch(url + `${inputs}`);

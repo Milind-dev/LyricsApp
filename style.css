@@ -12,30 +12,32 @@
 #headerLyrics h1 {
   color: white;
   font-family: "Sedgwick Ave", cursive;
-  margin-left: 90vh;
+  margin-left: 100vh;
 }
 #headerLyrics #searchings {
   background-color: #e271fd;
   color: white;
-  margin: 10vh -89vh;
+  margin: 10vh -97vh;
+  font-weight: 666;
   border-radius: 4vh;
-  width: 8vw;
+  width: 9vw;
   height: 6vh;
 }
 #headerLyrics input {
-  margin: 10vh 70vh;
+  margin: 10vh 75vh;
+  border: hidden;
   border-radius: 3vh;
   text-align: center;
-  width: 27vw;
+  width: 32vw;
   height: 7vh;
-  outline: red dashed 1px;
+  outline: hidden;
   box-sizing: border-box;
 }
 
 #resultsShow {
   display: flex;
   flex: 1;
-  margin: 1vh 14vh;
+  margin: 1vh 27vh;
   justify-content: space-between;
   width: 70%;
 }
@@ -82,7 +84,8 @@
   font-family: "Cormorant Garamond", serif;
   font-size: 3vh;
   width: 100vh;
-  margin: 10vh 55vh;
+  margin: 10vh 63vh;
   border: 1px solid black;
-  box-shadow: #555bff 0px 0px 0px 3px, #1fc11b 0px 0px 0px 6px, #ffd913 0px 0px 0px 9px, #ff9c55 0px 0px 0px 12px, #ff5555 0px 0px 0px 15px;
-}/*# sourceMappingURL=style.css.map */
+  box-shadow: #555bff 0px 0px 0px 3px, #1fc11b 0px 0px 0px 6px,
+    #ffd913 0px 0px 0px 9px, #ff9c55 0px 0px 0px 12px, #ff5555 0px 0px 0px 15px;
+}
