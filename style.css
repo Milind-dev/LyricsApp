@@ -59,12 +59,13 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   border-radius: 2vh;
-  width: 8vh;
+  width: 18vh;
+  height: 7vh;
 }
 #resultsShow #lyricsDetails:hover {
-  color: crimson;
-  background-color: yellow;
-  font-weight: bold;
+  color: black;
+  background-color: thistle;
+  font-weight: 999;
 }
 
 .lyricsSearchings {
@@ -73,6 +74,7 @@
 
 .audioLyrics {
   width: 10vh;
+  margin-right: 42vh;
 }
 
 #LyricsReader {

@@ -70,12 +70,13 @@ $font-Sedgwick: "Sedgwick Ave", cursive;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     border-radius: 2vh;
-    width: 8vh;
+    width: 18vh;
 
+    height: 7vh;
     &:hover {
-      color: crimson;
-      background-color: yellow;
-      font-weight: bold;
+      color: black;
+      background-color: thistle;
+      font-weight: 999;
     }
   }
 }
@@ -84,6 +85,7 @@ $font-Sedgwick: "Sedgwick Ave", cursive;
 }
 .audioLyrics {
   width: 10vh;
+  margin-right: 42vh;
 }
 #LyricsReader {
   z-index: 1;

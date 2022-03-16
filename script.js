@@ -23,11 +23,13 @@ const showData = (lyricsdata) => {
         const { artist, title, id, preview } = element;
         html += `<div id="resultsShow">  
                    <div class="lyricsSearchings">
-                     <p id="lyricsInfo"> <span class="lyricsName">
-                       <img src="${artist.picture_small}"> ${artist.name} </span> ${id} ${title}</img> 
+            
+                   <img src="${artist.picture_small}">
+                   </img><p id="lyricsInfo"> <span class="lyricsName">
+                          </span> <p> ${artist.name}  ${id} ${title} </p>
                      </p>
                    </div>
-                   <div class = "audioLyrics"> 
+                   <div class = "audioLyrics">
                     <audio controls>
                      <source src=${preview} type="audio/mpeg">
                     </audio>
